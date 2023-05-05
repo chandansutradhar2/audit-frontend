@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+      style={{
+        backgroundColor: "lightblue",
+      }}>
+      <h1>Welcome to Audit Management System</h1>
+      <button>Click Me</button>
     </div>
   );
 }
 
 export default App;
+
+function demo() {
+  let a = 10;
+  let b = 20;
+
+  return [a, b];
+}
+
+console.log(demo());
