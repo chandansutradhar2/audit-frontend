@@ -9,7 +9,15 @@ function App() {
         backgroundColor: "lightblue",
       }}>
       <h1>Welcome to Audit Management System</h1>
-      <button>Click Me</button>
+      <button
+        style={{
+          fontSize: "8em",
+          padding: "1rem",
+          backgroundColor: "blue",
+          color: "white",
+        }}>
+        Click Me
+      </button>
     </div>
   );
 }
